@@ -16,7 +16,9 @@ const FeedbackForm = () => {
         const res = await axios.post("http://localhost:1337/api/reviews", {
           data,
         });
-        console.log(res);
+        toast.success("Thanks for your feedback");
+        setName("");
+        setIdx(null);
       } else {
         toast.error("Please enter all fields");
       }
