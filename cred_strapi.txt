@@ -1,0 +1,3 @@
+email: root@root.com
+
+pass: #1HelloWorld!
